@@ -8,7 +8,6 @@
   --text: #ffffff;
   --muted: #c7ccd5;
   --soft: #8f98a8;
-  --gold: #f4bf45;
   --green: #22c58b;
   --blue: #4b9dff;
   --max: 1120px;
@@ -120,7 +119,7 @@ nav a[aria-current="page"] {
 
 .eyebrow {
   margin: 0 0 12px;
-  color: var(--gold);
+  color: var(--text);
   font-size: 13px;
   font-weight: 800;
   letter-spacing: 0;
@@ -187,17 +186,17 @@ p {
 }
 
 .primary {
-  border-color: var(--gold);
-  background: var(--gold);
+  border-color: var(--text);
+  background: var(--text);
   color: #111111;
 }
 
 .primary:hover {
-  background: #ffd266;
+  background: #e9edf3;
 }
 
 .secondary:hover {
-  border-color: var(--gold);
+  border-color: var(--text);
 }
 
 .large {
@@ -264,9 +263,9 @@ p {
   align-items: center;
   justify-content: center;
   margin-bottom: 34px;
-  border: 1px solid rgba(244, 191, 69, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 50%;
-  color: var(--gold);
+  color: var(--text);
   font-size: 13px;
   font-weight: 800;
 }

@@ -9,8 +9,9 @@ SongDiceの公開宣伝サイト、サポート情報、プライバシーポリ
 
 ## インストール導線
 
-現在はiPhoneでApp Storeアプリの検索画面を開くリンクにしています。
-App Storeの個別アプリURLが発行されたら、`index.html` 内の `itms-apps://itunes.apple.com/jp/search?term=SongDice&media=software` を差し替えてください。
+現在はApp Storeの個別アプリページへリンクしています。
+
+`https://apps.apple.com/jp/app/song-dice/id6774617741`
 
 ## お問い合わせ
 
