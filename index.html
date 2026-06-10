@@ -3,118 +3,168 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Song Diceのサポートページです。使い方、よくある質問、お問い合わせ先をご案内します。">
-  <title>Song Dice サポート</title>
+  <meta name="description" content="SongDiceは、アルバムやApple Musicのプレイリストから今日の一曲をルーレットで決めるiOSアプリです。">
+  <meta property="og:title" content="SongDice">
+  <meta property="og:description" content="今日の一曲を、ルーレットで。">
+  <meta property="og:image" content="assets/songdice-hero.png">
+  <meta property="og:type" content="website">
+  <title>SongDice</title>
+  <link rel="icon" href="assets/songdice-icon.png">
+  <link rel="apple-touch-icon" href="assets/songdice-icon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="shell nav">
-      <a class="brand" href="index.html" aria-label="Song Dice サポート トップ">
-        <span class="brand-mark">♪</span>
-        <span>Song Dice</span>
+      <a class="brand" href="index.html" aria-label="SongDice トップ">
+        <img src="assets/songdice-icon.png" alt="" width="34" height="34">
+        <span>SongDice</span>
       </a>
       <nav aria-label="ページ内ナビゲーション">
-        <a href="#guide">使い方</a>
-        <a href="#faq">FAQ</a>
+        <a href="#features">特徴</a>
+        <a href="#screens">画面</a>
+        <a href="#support">サポート</a>
         <a href="privacy.html">プライバシー</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero shell">
-      <p class="eyebrow">SONG DICE SUPPORT</p>
-      <h1>今日の一曲を、<br>軽やかに決める。</h1>
-      <p class="hero-copy">
-        Song Diceは、アルバムやApple Musicのプレイリストから
-        ランダムに一曲を選ぶためのiOSアプリです。
-      </p>
-      <div class="hero-actions">
-        <a class="button primary" href="mailto:timtimtimny0014@gmail.com">お問い合わせ</a>
-        <a class="button secondary" href="privacy.html">プライバシーポリシー</a>
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">SongDice for iPhone</p>
+          <h1>今日の一曲を、ルーレットで。</h1>
+          <p>
+            アルバムやApple Musicのプレイリストから、今聴く曲を気持ちよくランダム選曲。
+            ひとりでも、近くの友達とも、迷う時間をそのまま楽しめます。
+          </p>
+          <div class="hero-actions" aria-label="主要リンク">
+            <a class="button primary" href="itms-apps://itunes.apple.com/jp/search?term=SongDice&amp;media=software">App Storeで開く</a>
+            <a class="button secondary" href="#screens">画面を見る</a>
+          </div>
+        </div>
+        <figure class="hero-visual" aria-label="SongDiceのアプリ画面">
+          <img src="assets/songdice-hero.png" alt="SongDiceのルーレット、メッセージ、コレクション画面">
+        </figure>
       </div>
     </section>
 
-    <section class="section band" id="guide">
+    <section class="section intro">
+      <div class="shell intro-grid">
+        <div>
+          <p class="eyebrow">What is SongDice?</p>
+          <h2>曲選びを、ちょっとしたイベントに。</h2>
+        </div>
+        <p>
+          SongDiceは、曲をただランダムに選ぶだけではなく、ジャケットが流れる演出や結果画面、
+          コレクション機能で「選ばれる瞬間」まで楽しめるアプリです。
+        </p>
+      </div>
+    </section>
+
+    <section class="section band" id="features">
       <div class="shell">
-        <p class="eyebrow">HOW TO USE</p>
-        <h2>基本の使い方</h2>
-        <div class="steps">
+        <p class="eyebrow">Features</p>
+        <h2>できること</h2>
+        <div class="feature-grid">
           <article>
-            <span class="step-number">01</span>
-            <h3>アルバムを選ぶ</h3>
-            <p>テンプレートまたはマイリストから、ルーレットに使うアルバムを選択します。</p>
+            <span class="feature-number">01</span>
+            <h3>ルーレット選曲</h3>
+            <p>アルバムを選んでSPIN。ジャケットが切り替わる演出で、今日の一曲をランダムに決められます。</p>
           </article>
           <article>
-            <span class="step-number">02</span>
-            <h3>GOを押す</h3>
-            <p>アルバム詳細を確認し、GOボタンからルーレット画面へ進みます。</p>
+            <span class="feature-number">02</span>
+            <h3>Apple Music連携</h3>
+            <p>自分のプレイリストを読み込み、SongDice内のアルバムとしてルーレット対象にできます。</p>
           </article>
           <article>
-            <span class="step-number">03</span>
-            <h3>SPINで選曲</h3>
-            <p>ジャケットが流れる演出のあと、アルバム内から一曲がランダムに選ばれます。</p>
+            <span class="feature-number">03</span>
+            <h3>友達と選曲</h3>
+            <p>近くの端末とつながって、同じプレイリストを使いながらそれぞれのルーレットを楽しめます。</p>
+          </article>
+          <article>
+            <span class="feature-number">04</span>
+            <h3>コレクション</h3>
+            <p>選ばれた曲をコレクションとして残し、あとからお気に入りの履歴を見返せます。</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section shell">
-      <p class="eyebrow">APPLE MUSIC</p>
-      <h2>Myプレイリストの読み込み</h2>
-      <div class="feature-layout">
+    <section class="section" id="screens">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Screens</p>
+          <h2>SongDiceの画面</h2>
+        </div>
+        <div class="screen-grid">
+          <figure>
+            <img src="assets/songdice-roulette.png" alt="ルーレット選曲画面">
+            <figcaption>ルーレットで一曲を決定</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/songdice-message.png" alt="友達と楽しむメッセージ画面">
+            <figcaption>近くの友達と楽しめる</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/songdice-collection.png" alt="選ばれた曲のコレクション画面">
+            <figcaption>選ばれた曲をコレクション</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band install">
+      <div class="shell install-grid">
         <div>
+          <p class="eyebrow">Download</p>
+          <h2>SongDiceをインストール</h2>
           <p>
-            Apple Musicへのアクセスを許可すると、ご自身で作成したプレイリストを
-            Song Diceのアルバムとして追加できます。追加後は通常のアルバムと同じように
-            ルーレットで利用できます。
+            iPhoneのApp StoreでSongDiceを開いてインストールできます。
+            公開直後で個別ページが表示されない場合は、App Store内で「SongDice」と検索してください。
           </p>
         </div>
-        <ol class="compact-list">
-          <li>アルバム画面で読み込みボタンを押す</li>
-          <li>Apple Musicへのアクセスを許可する</li>
-          <li>追加するプレイリストを選ぶ</li>
-          <li>追加したアルバムでルーレットを回す</li>
-        </ol>
+        <a class="button primary large" href="itms-apps://itunes.apple.com/jp/search?term=SongDice&amp;media=software">App Storeで開く</a>
       </div>
     </section>
 
-    <section class="section band" id="faq">
-      <div class="shell narrow">
-        <p class="eyebrow">FAQ</p>
-        <h2>よくある質問</h2>
-        <details>
-          <summary>Apple Musicのプレイリストが表示されません。</summary>
-          <p>端末でApple Musicにサインインしていること、設定アプリでSong Diceのメディアアクセスが許可されていることをご確認ください。通信環境を確認し、再読み込みもお試しください。</p>
-        </details>
-        <details>
-          <summary>読み込んだプレイリストは外部サーバーに送信されますか？</summary>
-          <p>Song Dice独自のサーバーには送信しません。読み込んだアルバムと曲情報は、お使いの端末内に保存されます。</p>
-        </details>
-        <details>
-          <summary>選ばれた曲をApple Musicで開けますか？</summary>
-          <p>曲情報にApple Musicのリンクがある場合は、結果画面からApple Musicで開けます。</p>
-        </details>
-        <details>
-          <summary>不具合を報告したいです。</summary>
-          <p>端末の機種、iOSのバージョン、発生した操作を添えて、下記メールアドレスまでご連絡ください。</p>
-        </details>
+    <section class="section" id="support">
+      <div class="shell support-grid">
+        <div>
+          <p class="eyebrow">Support</p>
+          <h2>サポート</h2>
+          <p>
+            不具合の報告やご要望はメールで受け付けています。端末の機種、iOSのバージョン、
+            発生した操作を添えていただくと確認がスムーズです。
+          </p>
+          <a class="text-link" href="mailto:timtimtimny0014@gmail.com">timtimtimny0014@gmail.com</a>
+        </div>
+        <div class="faq-list" aria-label="よくある質問">
+          <details>
+            <summary>Apple Musicのプレイリストが表示されません。</summary>
+            <p>端末でApple Musicにサインインしていること、設定アプリでSongDiceのメディアアクセスが許可されていることをご確認ください。</p>
+          </details>
+          <details>
+            <summary>読み込んだ情報は外部サーバーに送信されますか？</summary>
+            <p>SongDice独自のサーバーには送信しません。読み込んだアルバムと曲情報は端末内に保存されます。</p>
+          </details>
+          <details>
+            <summary>選ばれた曲をApple Musicで開けますか？</summary>
+            <p>曲情報にApple Musicのリンクがある場合は、結果画面からApple Musicで開けます。</p>
+          </details>
+        </div>
       </div>
-    </section>
-
-    <section class="section shell contact" id="contact">
-      <p class="eyebrow">CONTACT</p>
-      <h2>お問い合わせ</h2>
-      <p>ご質問、不具合のご報告、ご要望はメールで受け付けています。</p>
-      <a class="contact-link" href="mailto:timtimtimny0014@gmail.com">timtimtimny0014@gmail.com</a>
     </section>
   </main>
 
   <footer>
     <div class="shell footer-inner">
-      <span>© 2026 Song Dice</span>
-      <a href="privacy.html">プライバシーポリシー</a>
+      <span>© 2026 SongDice</span>
+      <div>
+        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="mailto:timtimtimny0014@gmail.com">お問い合わせ</a>
+      </div>
     </div>
   </footer>
 </body>
